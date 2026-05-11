@@ -1,0 +1,11 @@
+{
+    "accountcreationmessage" : "Account Created Successfully",
+    "firstname" : "Leena",
+    "lastname" : "chouhan",
+    "email" : "leenaC@gmail.com",
+    "phonenumber" : "1234567890",
+    "occupation" : "Engineer",
+    "gender" : "Female",
+    "password" : "Leena@123",
+    "confirmpassword" : "Leena@123"
+}

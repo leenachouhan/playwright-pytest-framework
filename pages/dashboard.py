@@ -35,6 +35,7 @@ class Dashboard:
     
     def viewbutton(self,page,itemname):
         item = page.locator("#products div.mb-3",has_text=itemname)
+        time.sleep(5)
         item.get_by_role("button",name="View").click()
         value = page.locator("div.rtl-text h2").inner_text()
         return value

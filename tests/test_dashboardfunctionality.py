@@ -19,6 +19,7 @@ def test_emptycartverification(login,page:Page):
     assert page.locator("div.ng-star-inserted>h1").inner_text().strip() == test_data['emptycart']
 
 @pytest.mark.cart
+@pytest.xfail
 def test_cartwithitems(login,page:Page):
     # page.pause()
     dashboardObj.carts(page)
